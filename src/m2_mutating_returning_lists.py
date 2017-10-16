@@ -5,7 +5,7 @@ This problem provides practice at:
   ***  MUTATING  and  RETURNING-NEW  LISTS.  ***
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  October 2016.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ########################################################################
@@ -31,10 +31,10 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_doubler()
+    run_test_doubler()
 
 
-def test_doubler():
+def run_test_doubler():
     """ Tests the    doubler    function. """
     # ------------------------------------------------------------------
     # TODO: 2. Implement this TEST function.
@@ -80,7 +80,7 @@ def test_doubler():
     print('The returned value should be:', expected)
 
     # ------------------------------------------------------------------
-    # TODO 2 (continued): Add your ADDITIONAL test(s) here:
+    # TO DO 2 (continued): Add your ADDITIONAL test(s) here:
     # ------------------------------------------------------------------
 
 

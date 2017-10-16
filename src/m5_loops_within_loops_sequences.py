@@ -5,7 +5,7 @@ This problem provides practice at:
   ***  LOOPS WITHIN LOOPS in SEQUENCES-OF-SUBSEQUENCES problems.  ***
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  October 2016.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ########################################################################
@@ -31,11 +31,11 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_integers()
-    test_big_letters()
+    run_test_integers()
+    run_test_big_letters()
 
 
-def test_integers():
+def run_test_integers():
     """ Tests the    integers    function. """
     # ------------------------------------------------------------------
     # TODO: 2. Implement this TEST function.
@@ -118,7 +118,7 @@ def integers(sequence_of_sequences):
     # ------------------------------------------------------------------
 
 
-def test_big_letters():
+def run_test_big_letters():
     """ Tests the    big_letters    function. """
     # ------------------------------------------------------------------
     # TODO: 4. Implement this TEST function.

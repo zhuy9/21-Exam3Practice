@@ -5,8 +5,14 @@ This problem provides practice at:
   ***  LOOPS WITHIN LOOPS, SEQUENCES and MUTATION  ***
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  October 2016.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+
+
+def main():
+    """ Calls the   TEST   functions in this module. """
+    run_test_zero_changer()
+
 
 ########################################################################
 # Students:
@@ -17,7 +23,7 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 #     3 is an "easy" Test 2 question.
 #     5 is a "typical" Test 2 question.
 #     7 is a "hard" Test 2 question.
-#    10 is an EXTREMELY hard problem (too hard for a Test 2 question)
+#    10 is an EXTREMELY hard problem (too hard for a real test question)
 #
 #  TIME ratings: A ROUGH estimate of the number of minutes that we
 #     would expect a well-prepared student to take on the problem.
@@ -29,17 +35,12 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 ########################################################################
 
 
-def main():
-    """ Calls the   TEST   functions in this module. """
-    test_problem2a()
-
-
-def test_problem2a():
-    """ Tests the    problem2a    function. """
+def run_test_zero_changer():
+    """ Tests the    zero_changer    function. """
     # ------------------------------------------------------------------
-    # TODO: 2. Write tests for the  problem2a   function.
+    # TODO: 2. Write tests for the  zero_changer   function.
     #  Include as many tests as required to give you confidence
-    #  that your implementation of   problem2a   is correct.
+    #  that your implementation of   zero_changer   is correct.
     #
     #  IMPORTANT: GET SOMEONE RELIABLE (like your instructor or a
     #    course assistant) to confirm that your TESTS are CORRECT
@@ -52,11 +53,11 @@ def test_problem2a():
     # ------------------------------------------------------------------
     print()
     print('--------------------------------------------------')
-    print('Testing the   problem2a   function:')
+    print('Testing the   zero_changer   function:')
     print('--------------------------------------------------')
 
 
-def problem2a(tuple_of_lists):
+def zero_changer(tuple_of_lists):
     """
     What comes in:  A TUPLE of LISTs,
                     where the interior lists contain only integers.

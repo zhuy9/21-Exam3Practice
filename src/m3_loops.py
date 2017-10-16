@@ -5,7 +5,7 @@ This problem provides practice at:
   ***  FOR and WHILE loops.  ***
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  October 2016.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ########################################################################
@@ -34,7 +34,7 @@ import math
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_practice_problem2a()
+    run_test_practice_problem3()
 
 # ----------------------------------------------------------------------
 # Students: Some of the testing code below uses SimpleTestCase objects,
@@ -42,11 +42,11 @@ def main():
 # ----------------------------------------------------------------------
 
 
-def test_practice_problem2a():
-    """ Tests the   practice_problem2a  function. """
+def run_test_practice_problem3():
+    """ Tests the   practice_problem3  function. """
     ####################################################################
     # TODO: 2. Implement this TEST function.
-    #   It TESTS the  practice_problem2a  function defined below.
+    #   It TESTS the  practice_problem3  function defined below.
     #   Include at least ** 2 ** ADDITIONAL tests beyond those we wrote.
     #
     #   Try to choose tests that might expose errors in your code!
@@ -67,46 +67,46 @@ def test_practice_problem2a():
     #   -- a list containing the argument(s) to send to the function,
     #   -- the correct returned value.
     # For example, the first test below will call
-    #   practice_problem2a(-2, 2, 1.3)
+    #   practice_problem3(-2, 2, 1.3)
     # and compare the returned value against [1, 7] (the correct answer).
     # ------------------------------------------------------------------
-    tests = [st.SimpleTestCase(practice_problem2a,
+    tests = [st.SimpleTestCase(practice_problem3,
                                [-2, 2, 1.3],
                                [1, 7]),
-             st.SimpleTestCase(practice_problem2a,
+             st.SimpleTestCase(practice_problem3,
                                [-5, 3, 0.25],
                                [-5, 0, 1]),
-             st.SimpleTestCase(practice_problem2a,
+             st.SimpleTestCase(practice_problem3,
                                [-5, 4, 0.25],
                                [-5, 0, 1, 2]),
-             st.SimpleTestCase(practice_problem2a,
+             st.SimpleTestCase(practice_problem3,
                                [-5, 5, 0.25],
                                [-5, 0, 1, 2, 6]),
-             st.SimpleTestCase(practice_problem2a,
+             st.SimpleTestCase(practice_problem3,
                                [-5, 6, 0.25],
                                [-5, 0, 1, 2, 6, 7]),
-             st.SimpleTestCase(practice_problem2a,
+             st.SimpleTestCase(practice_problem3,
                                [-5, 7, 0.25],
                                [-5, 0, 1, 2, 6, 7, 8]),
-             st.SimpleTestCase(practice_problem2a,
+             st.SimpleTestCase(practice_problem3,
                                [-3, 3, -1.0],
                                [-1, 0, 1]),
-             st.SimpleTestCase(practice_problem2a,
+             st.SimpleTestCase(practice_problem3,
                                [-3, 4, -1.0],
                                [-1, 0, 1, 2]),
-             st.SimpleTestCase(practice_problem2a,
+             st.SimpleTestCase(practice_problem3,
                                [-3, 5, -1.0],
                                [-1, 0, 1, 2, 3]),
-             st.SimpleTestCase(practice_problem2a,
+             st.SimpleTestCase(practice_problem3,
                                [-3, 6, -1.0],
                                [-1, 0, 1, 2, 3, 5]),
-             st.SimpleTestCase(practice_problem2a,
+             st.SimpleTestCase(practice_problem3,
                                [30, 0, -1000],
                                []),
-             st.SimpleTestCase(practice_problem2a,
+             st.SimpleTestCase(practice_problem3,
                                [100, 5, 1.414],
                                [139, 183, 516, 560, 849]),
-             st.SimpleTestCase(practice_problem2a,
+             st.SimpleTestCase(practice_problem3,
                                [0, 1, 1.414213562373],
                                [286602]),
              ]
@@ -114,7 +114,7 @@ def test_practice_problem2a():
     big_list = []
     for k in range(888, 1888):
         big_list.append(k)
-    tests.append(st.SimpleTestCase(practice_problem2a,
+    tests.append(st.SimpleTestCase(practice_problem3,
                                    [888, 1000,
                                     - math.sqrt(2) - 0.00000000001],
                                    big_list))
@@ -122,10 +122,10 @@ def test_practice_problem2a():
     # ------------------------------------------------------------------
     # Run the 14 tests in the   tests   list constructed above.
     # ------------------------------------------------------------------
-    st.SimpleTestCase.run_tests('practice_problem2a', tests)
+    st.SimpleTestCase.run_tests('practice_problem3', tests)
 
     ####################################################################
-    # TODO 2 continued:  More tests:
+    # TO DO 2 continued:  More tests:
     #      YOU add at least **   2   ** additional tests here.
     #
     # You can use the   SimpleTestCase  class as above, or use
@@ -136,7 +136,7 @@ def test_practice_problem2a():
     ####################################################################
 
 
-def practice_problem2a(start, n, threshold):
+def practice_problem3(start, n, threshold):
     """
     What comes in:
       -- An integer:  start
@@ -147,7 +147,7 @@ def practice_problem2a(start, n, threshold):
       sine and cosine is bigger than the given threshold.
     Side effects: None.
     Examples:
-       practice_problem2a(-2, 2, 1.3)  returns  [1, 7]
+       practice_problem3(-2, 2, 1.3)  returns  [1, 7]
     as you can see if you work through this example using
     the numbers presented below. (Do so!)
 

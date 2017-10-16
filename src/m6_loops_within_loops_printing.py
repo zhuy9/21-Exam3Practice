@@ -5,7 +5,7 @@ This problem provides practice at:
   ***  LOOPS WITHIN LOOPS in PRINTING-TO-CONSOLE problems.  ***
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  October 2016.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ########################################################################
@@ -31,11 +31,11 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_shape()
-    test_another_shape()
+    run_test_shape()
+    run_test_another_shape()
 
 
-def test_shape():
+def run_test_shape():
     """ Tests the    shape    function. """
     print()
     print('--------------------------------------------------')
@@ -76,7 +76,7 @@ def shape(r):
     For purposes of "lining up", assume r is a single digit.
     """
     # ------------------------------------------------------------------
-    # TODO: Implement and test this function.
+    # TODO: 2. Implement and test this function.
     #          Some tests are already written for you (above).
     #
     ####################################################################
@@ -90,7 +90,7 @@ def shape(r):
     # ------------------------------------------------------------------
 
 
-def test_another_shape():
+def run_test_another_shape():
     """ Tests the    another_shape    function. """
     print()
     print('--------------------------------------------------')
@@ -143,7 +143,7 @@ def another_shape(r, m):
     For purposes of "lining up", assume m and n are single digits.
     """
     # ------------------------------------------------------------------
-    # TODO: Implement and test this function.
+    # TODO: 3. Implement and test this function.
     #          Some tests are already written for you (above).
     #
     ####################################################################

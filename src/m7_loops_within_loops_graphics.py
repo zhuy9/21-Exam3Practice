@@ -5,7 +5,7 @@ This problem provides practice at:
   ***  LOOPS WITHIN LOOPS in 2D GRAPHICS problems.  ***
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  October 2016.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ########################################################################
@@ -33,11 +33,11 @@ import rosegraphics as rg
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_hourglass()
-    test_many_hourglasses()
+    run_test_hourglass()
+    run_test_many_hourglasses()
 
 
-def test_hourglass():
+def run_test_hourglass():
     """ Tests the    hourglass    function. """
     print()
     print('--------------------------------------------------')
@@ -89,7 +89,7 @@ def hourglass(window, n, point, radius, color):
     a color that rosegraphics understands.
     """
     # ------------------------------------------------------------------
-    # TODO: Implement and test this function.
+    # TODO: 2. Implement and test this function.
     #       We provided some tests for you (above).
     # ------------------------------------------------------------------
     ####################################################################
@@ -103,7 +103,7 @@ def hourglass(window, n, point, radius, color):
     # ------------------------------------------------------------------
 
 
-def test_many_hourglasses():
+def run_test_many_hourglasses():
     """ Tests the    many_hourglasses    function. """
     print()
     print('--------------------------------------------------')
@@ -163,7 +163,7 @@ def many_hourglasses(window, square, m, colors):
     each of which denotes a color that rosegraphics understands.
     """
     # ------------------------------------------------------------------
-    # TODO: Implement and test this function.
+    # TODO: 3. Implement and test this function.
     #       We provided some tests for you (above).
     # ------------------------------------------------------------------
     ####################################################################
@@ -179,6 +179,7 @@ def many_hourglasses(window, square, m, colors):
     #                         a correct "hourglass" function above)
     #    TIME ESTIMATE:  15 minutes.
     # ------------------------------------------------------------------
+
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
