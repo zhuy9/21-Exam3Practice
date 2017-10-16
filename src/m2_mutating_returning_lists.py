@@ -98,8 +98,8 @@ def doubler(list1, list2):
     and RETURNs the list [10, 0, 16]
 
     Preconditions:
-        :type list1: list   of integers
-        :type list2: list   of integers
+        :type list1: list of int
+        :type list2: list of int
     """
     # ------------------------------------------------------------------
     # TODO: 3. Implement and test this function.

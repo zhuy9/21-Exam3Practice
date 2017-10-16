@@ -90,7 +90,9 @@ def integers(sequence_of_sequences):
     then this function returns:
         [3, 1, 4, 10, 10, 1, 3, 4, 30, -4]
 
-    Precondition:  the given argument is a sequence of sequences.
+    Type hints:
+      :type sequence_of_sequences: (list|tuple) of (list|tuple|string)
+      :rtype: list of int
     """
     # ------------------------------------------------------------------
     # TODO: 3. Implement and test this function.
