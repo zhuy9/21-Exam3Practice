@@ -65,7 +65,7 @@ def run_test_hourglass():
 
 def hourglass(window, n, point, radius, color):
     """
-    See   problem3a_picture.pdf   in this project for pictures that may
+    See   hourglass_picture.pdf   in this project for pictures that may
     help you better understand the following specification:
 
     Displays an "hourglass" shape of circles in the given window.
@@ -138,7 +138,7 @@ def run_test_many_hourglasses():
 
 def many_hourglasses(window, square, m, colors):
     """
-    See   problem3b_picture.pdf   in this project for pictures that may
+    See   many_hourglasses_picture.pdf   in this project for pictures that may
     help you better understand the following specification:
 
     Displays  m  rectangles, where:
