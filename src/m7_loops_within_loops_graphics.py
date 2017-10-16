@@ -99,7 +99,7 @@ def hourglass(window, n, point, radius, color):
     # ------------------------------------------------------------------
     # DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
     #    DIFFICULTY:      8
-    #    TIME ESTIMATE:  25 minutes.
+    #    TIME ESTIMATE:  25 minutes (warning: this problem is challenging)
     # ------------------------------------------------------------------
 
 
@@ -175,9 +175,9 @@ def many_hourglasses(window, square, m, colors):
     ####################################################################
     # ------------------------------------------------------------------
     # DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
-    #    DIFFICULTY:      6  (assuming that you already have
+    #    DIFFICULTY:      7  (assuming that you already have
     #                         a correct "hourglass" function above)
-    #    TIME ESTIMATE:  15 minutes.
+    #    TIME ESTIMATE:  20 minutes (warning: this problem is challenging)
     # ------------------------------------------------------------------
 
 
