@@ -158,7 +158,7 @@ def many_hourglasses(window, square, m, colors):
       :type window: rg.RoseWindow
       :type square: rg.Square
       :type m: int
-      :type colors: (list, tuple)
+      :type colors: (list | tuple) of str
     where m is positive and colors is a sequence of strings,
     each of which denotes a color that rosegraphics understands.
     """
