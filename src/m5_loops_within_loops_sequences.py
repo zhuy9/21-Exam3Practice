@@ -180,7 +180,7 @@ def run_test_big_letters():
 
 
     # Test 1:
-    expected = 'DARREN'
+    expected = 'DAABCDREFGHIJKLMNOPQRRSTUVEWXNYZZ'
     answer = big_letters([(3, 1, 4),  # not a string
                           'D',  # D
                           (10, 'BDFG', 10),  # not a string
